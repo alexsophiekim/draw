@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+.red{
+  background-color: #c0392b
+}
+.green{
+  background-color: #27ae60
+}
+.blue{
+  background-color: #2980b9
+}
+.yellow{
+  background-color: #f1c40f
+}
+.orange{
+  background-color: #d35400
+}
+.purple{
+  background-color: #8e44ad
+}
+.gray{
+  background-color: #7f8c8d
+}
+.navy{
+  background-color: #2c3e50
+}
+.sliver{
+  background-color: #bdc3c7
+}
+.pink{
+  background-color: #ff7675
+}
+.peach{
+  background-color: #e17055
+}
+.mint{
+  background-color: #00b894
+}
+.white{
+  background-color: #ecf0f1
+}
+.col{
+  min-height: 100px;
+  float: left;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.pageContainer{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.col12{
+  width: 100%;
+}
+.col11{
+  width:91.66%
+}
+.col10{
+width: 83.33%
+}
+.col9{
+width: 75%
+}
+.col8{
+width: 66.67%
+}
+.col7{
+width: 58.33%
+}
+.col6{
+  width: 50%;
+}
+.col5{
+width: 41.66%;
+}
+.col4{
+width: 33.33%
+}
+.col3{
+width: 25%
+}
+.col2{
+  width: 16.67%;
+}
+.col1{
+  width: 8.33%;
+}
+.row:after{
+  clear:both;
+  display: block;
+  content: '';
+}
